@@ -1,0 +1,16 @@
+{
+  "model_id": "google/owlv2-base-patch16-ensemble",
+  "labels": ["a photo of a face", "id or card or rectangular item"],
+  "data_path": "/data",
+  "out_solution_path": "output/results.csv",
+  "detection_results_path": "output/interim_data.json",
+  "log_path": "output/log.txt",
+  "coverage_tolerance": 0.15,
+  "device": "cuda",
+  "score_threshold": 0.15,
+  "nms_threshold": 0.3,
+  "seed": 9836,
+  "seconds_between_frames": 1.0,
+  "batch_size": 4,
+  "num_workers": 4
+}
